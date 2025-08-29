@@ -13,7 +13,7 @@ Are you fed up with the chaos of AI coding assistants? Does your helper build a 
 
 This protocol targets that exact problem — the productivity-killing disorder of modern "Vibe Coding." The issue isn't simply that models need better prompts; it's that our interaction model is ad hoc. The protocol enforces a deterministic, module-driven workflow with mandatory user verification, safe per-file edits, and repeatable research and roadmap steps so AI contributions are consistent, reviewable, and maintainable.
 
-## Solution — from "Prompter" to "Systems Engineer"
+## Solution — from "Prompter" to "Context Engineer"
 This protocol isn't just a better system prompt. It's an operating model that turns an AI assistant from a creative-but-chaotic helper into a systematic software engineer. Instead of iterating by ad hoc instructions, you define identity, rules, and a repeatable workflow (context engineering) so the assistant behaves like an accountable engineer architect and builder.
 
 ## How it works (short)
@@ -32,7 +32,7 @@ This protocol isn't just a better system prompt. It's an operating model that tu
 1. Download the protocol markdown files from this repo and place them in your project's root:
    - Gemini_context/product_roadmap.md (roadmap template)
    - Gemini_context/Gemini_context-en.md (Code Shield-1 / Gemini protocol)
-   - Gimini_context/Gimini_context-ar.md (Arabic protocol) <!-- ...keep Arabic path if present in repo... -->
+   - Gemini_context/Gemini_context-ar.md (Arabic protocol) <!-- ...keep Arabic path if present in repo... -->
    - vscode_Copilot_context/Copilot_context.md (VSCode / Copilot edition)
 2. Open your preferred AI coding assistant that supports contextual files (Gemini Code CLI, Cursor, Phind, Claude, Copilot workflows).
 3. Ask the assistant to follow the protocol and provide your project brief (e.g., "Create a task manager web app using flowmodoro").
@@ -41,7 +41,7 @@ This protocol isn't just a better system prompt. It's an operating model that tu
 ## Key files
 - vscode_Copilot_context/Copilot_context.md — Code Shield-2 (VSCode Copilot Edition) protocol (safe-edit rules, Copilot guidance).
 - Gemini_context/Gemini_context-en.md — Code Shield-1 protocol (Gemini edition).
-- Gimini_context/Gimini_context-ar.md — Arabic version of the protocol. <!-- keep if file exists -->
+- Gemini_context/Gemini_context-ar.md — Arabic version of the protocol. <!-- keep if file exists -->
 - Gemini_context/product_roadmap.md — Product roadmap template to be used in Phase 1.
 - LICENSE — Apache License 2.0.
 
@@ -59,7 +59,7 @@ This protocol isn't just a better system prompt. It's an operating model that tu
 
 ## Contribution & workflow hints
 - Keep changes small and module-scoped to simplify review.
-- Use the product roadmap template (Gimini_context/product_roadmap.md) to structure feature breakdown and priorities.
+- Use the product roadmap template (Gemini_context/product_roadmap.md) to structure feature breakdown and priorities.
 - When unsure of repository layout, list files before edits.
 - Use clear commit messages that reference the module being implemented.
 
