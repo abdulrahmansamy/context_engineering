@@ -5,6 +5,9 @@ Context Engineering repository: protocol documents and templates for iterative, 
 ## What this repo is
 A small collection of protocol documents, templates, and examples that define how an AI engineer (e.g., Code Shield / Cipher Gear) should operate when building applications one functional unit at a time, with mandatory user verification.
 
+<!-- Inspired by -->
+**Inspired by:** https://github.com/Pythonation/Context-Engineering-for-AI-Coding/blob/main/README.md
+
 ## Key files
 - Copilot_context.md — Code Shield-2 (VSCode Copilot Edition) protocol (safe-edit rules, Copilot guidance).
 - Gimini_context-en-2.md — Code Shield-1 protocol (Gemini edition).
